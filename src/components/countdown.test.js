@@ -13,4 +13,5 @@ describe("Countdown component", () => {
     const DaysElement = screen.getByText("days until Halloween", { exact: false });
     expect(DaysElement).toBeInTheDocument();
   });
+
 });

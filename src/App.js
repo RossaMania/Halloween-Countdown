@@ -1,11 +1,11 @@
 import './App.css';
-import Date from './components/date';
+import DateToday from './components/datetoday';
 import Countdown from './components/countdown';
 
 function App() {
   return (
     <div>
-      <Date />
+      <DateToday />
       <Countdown />
     </div>
   );
