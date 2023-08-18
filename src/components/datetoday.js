@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Typography from "@mui/material/Typography";
+import BoxWrapper from "./box";
 
 const DaysOfWeek = [
   "Sunday",
@@ -38,10 +39,11 @@ const DateToday = () => {
   }, [])
 
   return (
-
-    <Typography variant="h3" align="center">
-      {currentDay}
-    </Typography>
+    <BoxWrapper>
+      <Typography variant="h3" align="center">
+        {currentDay}
+      </Typography>
+    </BoxWrapper>
   );
 
 

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Typography from "@mui/material/Typography";
+import BoxWrapper from "./box";
 
 const Countdown = () => {
   const [countdown, setCountdown] = useState("");
@@ -21,7 +22,13 @@ const Countdown = () => {
     setCountdown(`${daysRemaining} days until Halloween!`);
   }, []);
 
-  return <Typography variant="h3" align="center">{countdown}</Typography>;
+  return (
+  <BoxWrapper>
+    <Typography variant="h3" align="center">
+      {countdown}
+    </Typography>
+  </BoxWrapper>
+  )
 };
 
 export default Countdown;
