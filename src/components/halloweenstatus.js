@@ -1,7 +1,10 @@
 import React from "react";
+import Typography from "@mui/material/Typography";
 
 const HalloweenStatus = () => {
-  return <p>It's Halloween.</p>;
-};
+
+  return <Typography align="center" variant="h1"> It's Halloween!</Typography>
+
+}
 
 export default HalloweenStatus;

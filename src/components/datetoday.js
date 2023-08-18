@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Typography from "@mui/material/Typography";
 
 const DaysOfWeek = [
   "Sunday",
@@ -37,9 +38,10 @@ const DateToday = () => {
   }, [])
 
   return (
-    <div>
-      <p>{currentDay}</p>
-    </div>
+
+    <Typography variant="h3" align="center">
+      {currentDay}
+    </Typography>
   );
 
 

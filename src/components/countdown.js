@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Typography from "@mui/material/Typography";
 
 const Countdown = () => {
   const [countdown, setCountdown] = useState("");
@@ -15,14 +16,12 @@ const Countdown = () => {
     const timeRemaining = halloweenThisYear - currentDate;
 
     // Convert milliseconds to days
-    const daysRemaining = Math.ceil(timeRemaining / (1000 * 60 * 60 * 24))
+    const daysRemaining = Math.ceil(timeRemaining / (1000 * 60 * 60 * 24));
 
-    setCountdown(`${daysRemaining} days until Halloween!`)
-  }, [])
+    setCountdown(`${daysRemaining} days until Halloween!`);
+  }, []);
 
-  return (
-    <p>{countdown}</p>
-  )
-}
+  return <Typography variant="h3" align="center">{countdown}</Typography>;
+};
 
 export default Countdown;
