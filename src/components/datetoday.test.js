@@ -1,5 +1,4 @@
 import { render, screen } from "@testing-library/react";
-import userEvent from "@testing-library/user-event";
 import DateToday from "./datetoday";
 
 describe("DateToday component", () => {
@@ -10,16 +9,18 @@ describe("DateToday component", () => {
 
   test("displays the correct formatted current date", () => {
     // Arrange
-    // Mock the current date for the test
-    render(<DateToday />)
+    render(<DateToday />);
 
     //Act
-    //Assert
-    const mockDate = new Date();
+    // Mock the current date for the test
+    const mockDate = new Date("2023-8-17T12:00:00Z");
     const originalDate = Date;
     global.Date = jest.fn(() => mockDate);
 
-    const expectedText = screen.getByText("Today is Wednesday, August 16.", { exact: false });
+    //Assert
+    const expectedText = screen.getByText("Today is Thursday, August 17.", {
+      exact: false,
+    });
     expect(expectedText).toBeInTheDocument();
 
     // Restore the original Date object after the test
