@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+## I **love** Halloween.
+### I **hate** doing the math to figure out how many days there are until it's All Hallow's Eve.
+
+I should be able to just open an app and have it show me right there on the screen.
+
+## Features
+
+- This app shows you what the day and date is, so you don't even need to open up your favorite calendar app to remind yourself.
+- It shows a countdown of how many days are remaining until Halloween, or shows a confirmation screen that it is, indeed, Halloween.
+- Styled with Material UI!
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
