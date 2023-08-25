@@ -1,7 +1,9 @@
 ## I **love** Halloween.
 ### I **hate** doing the math to figure out how many days there are until it's All Hallow's Eve.
 
-I should be able to just open an app and have it show me right there on the screen.
+### I should be able to just open an app and have it show me right there on the screen.
+
+This app was an attempt at Test Driven Development. Even though it's a SPA, I thought it'd be interesting to try to run tests on the app with the built-in Jest. After all, a different screen pops up on 10/31 of the current year.
 
 ## Features
 
