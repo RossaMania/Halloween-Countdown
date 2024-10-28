@@ -1,3 +1,5 @@
+Thank you for checking out my project! Connect with me on LinkedIn! https://www.linkedin.com/in/ross-clettenberg/
+
 ## I **love** Halloween.
 ### I **hate** doing the math to figure out how many days there are until it's All Hallow's Eve.
 
